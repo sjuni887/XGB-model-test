@@ -1,3 +1,5 @@
+pip install pandas streamlit numpy pydeck requests scikit-learn matplotlib seaborn
+
 import pandas as pd
 import streamlit as st
 import pandas as pd
