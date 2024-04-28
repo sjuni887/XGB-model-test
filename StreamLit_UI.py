@@ -1,4 +1,20 @@
-pip install pandas streamlit numpy pydeck requests scikit-learn matplotlib seaborn
+import subprocess
+
+# List of packages to install
+packages_to_install = [
+    'pandas',
+    'streamlit',
+    'numpy',
+    'pydeck',
+    'requests',
+    'scikit-learn',
+    'matplotlib',
+    'seaborn'
+]
+
+# Install each package
+for package in packages_to_install:
+    subprocess.check_call(['pip', 'install', package])
 
 import pandas as pd
 import streamlit as st
