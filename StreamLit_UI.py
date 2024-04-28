@@ -3,7 +3,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pydeck as pdk
-import joblib
 import requests
 import pickle
 from sklearn import preprocessing
